@@ -396,7 +396,7 @@ netsh interface ipv4 set address name="Ethernet 5" source=dhcp
 
 References:
 
-- [Walksnail-Ascent-FPV-VRX-Rooting](https://github.com/umeow0716/Walksnail-Ascent-FPV-VRX-Rooting)
+- [Walksnail-Ascent-FPV-VRX-Rooting-Exploit](https://github.com/umeow0716/Walksnail-Ascent-FPV-VRX-Rooting-Exploit) — original PoC and reverse-engineering notes
 - [Vulnerability write-up](https://hackmd.io/@umeow0716/ryu63HDeGg)
 - [Caddx VRX Max UDP protocol](https://github.com/CaddxFPV-Tech/Caddx_vrx_max_udp_protocol)
 - [AscentWebTool](https://github.com/TaranUA/AscentWebTool) — readable browser updater
@@ -462,5 +462,19 @@ rule set is used. CI runs the same commands on Windows for Python 3.10 and 3.13.
 - Protocol documentation: **CaddxFPV-Tech**
 - Readable updater reference: **TaranUA / AscentWebTool**
 - This interactive wrapper: built for the Ascent VRX community
+
+---
+
+## Related projects
+
+| Project | Description |
+| --- | --- |
+| [Walksnail-Ascent-FPV-VRX-Rooting-Exploit](https://github.com/umeow0716/Walksnail-Ascent-FPV-VRX-Rooting-Exploit) | Original PoC and reverse-engineering notes — the research this tool is based on |
+| [Vulnerability write-up](https://hackmd.io/@umeow0716/ryu63HDeGg) | Technical explanation of the updater command-injection RCE |
+| [extract-ascent-otra](https://github.com/umeow0716/extract-ascent-otra) | Firmware extraction tooling for the Ascent |
+| [Caddx_vrx_max_udp_protocol](https://github.com/CaddxFPV-Tech/Caddx_vrx_max_udp_protocol) | Caddx VRX Max UDP protocol documentation |
+| [Walksnail-Ascent-VRX-UART](https://github.com/maks421400-lgtm/Walksnail-Ascent-VRX-UART) | Walksnail VRX UART control and telemetry protocol documentation |
+| [AscentWebTool](https://github.com/TaranUA/AscentWebTool) | Readable browser-based updater |
+| [AscentVRXRootTool](https://github.com/TaranUA/AscentVRXRootTool) | This project |
 
 No warranty. Use at your own risk.
