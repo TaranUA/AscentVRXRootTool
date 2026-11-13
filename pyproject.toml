@@ -1,0 +1,6 @@
+# Tooling configuration. The project targets the oldest supported interpreter
+# (3.10) and uses ~100 columns; ruff's default rule set is used as-is so the
+# checks stay close to what `ruff check` reports out of the box.
+[tool.ruff]
+line-length = 100
+target-version = "py310"
